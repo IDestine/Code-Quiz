@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: blueviolet;
+  background-color: #41275e;
 }
 
 #highscore div div {
@@ -23,9 +23,6 @@ header {
   margin: 5px 0;
 }
 
-
-
-
 /* Section Styles */
 
 #positionWrapper {
@@ -35,20 +32,85 @@ header {
   min-height: calc(100% - 110px);
 }
 
-section{min-width: 50;
-          margin: 0 auto;
-
+section {
+  min-width: 50;
+  margin: 0 auto;
 }
 
-#controls{
-          background-color: blueviolet;
+#controls {
+  background-color: #41275e;
 }
-
 
 #info {
-          max-width: 980px;
-          margin: 0 auto;
-          color: white;
-          display: flex
-          align-items;
+  max-width: 980px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+#scores {
+  /* position:absolute; */
+  /* top:16px; */
+  left: 40px;
+  background-color: #834bc2;
+  color: white;
+}
+
+#timer {
+  /* position:absolute; */
+  /* top:0; */
+  right: 40px;
+}
+
+#intro {
+  text-align: center;
+}
+
+button {
+  background-color: #41275e;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#intro button:hover {
+  background-color: #631a8d;
+}
+
+#quizHolder #title {
+  font-weight: 700;
+}
+
+#quizHolder button {
+  background-color: #41275e;
+  border-radius: 5px;
+  color: white;
+  margin: 3px 0;
+  padding: 5px 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+#quizHolder button {
+  background-color: #41275e;
+  border-radius: 5px;
+  color: white;
+  margin: 3px 0;
+  padding: 5px 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+#quizHolder button:hover {
+  background-color: #631a8d;
 }
