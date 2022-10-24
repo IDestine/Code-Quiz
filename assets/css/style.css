@@ -1,0 +1,26 @@
+/*Simple/General Styles*/
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+header {
+  background-color: aqua;
+}
+
+#higscore div div {
+  padding: 5px;
+  font-weight: 600;
+
+}
+
+
+#highScores div div:nth-child(odd){
+          background-color: gray;
+}
+
+#highScores button{
+          margin: 5px 0;
+}
