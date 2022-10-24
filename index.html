@@ -22,18 +22,38 @@
       </div>
     </header>
     <main id="page-content">
+      <div id="positionWrapper">
+        <section id="intro">
+          <h1>Welcome to the Coding Quiz</h1>
+          <p>
+            Test your knowledge and answer the following coding questions within
+            the given time. Be advised that answerign incorrectly will
+            negatively affect your score aswell as your time by 10 seconds. Good
+            Luck!
+          </p>
 
-          <div id="positionWrapper">
-                    <section id="intro">
-                              <h1>Welcome to the Coding Quiz</h1>
-                              <p>Test your knowledge and answer the following coding questions within the given time. Be advised that answerign incorrectly will negatively affect your score aswell as your time by 10 seconds. Good Luck!</p>
+          <button id="start-btn">Start Quiz</button>
+        </section>
 
-                              <button id="start-btn">Start Quiz</button>
-
-                    </section>
-
+        <section id="quizHolder" class="hide">
+          <div id="questionHolder"></div>
+          <div id="scoreIndicator" class="invisible">
+            <p>&nbsp;</p>
           </div>
-
+        </section>
+        <section id="finish" class="hide">
+          <h1>Complete</h1>
+          <p>Your final score is&nbsp; <span id="score"></span></p>
+          <div id="records">
+            <p>Enter Initials:</p>
+            <input id="initials" type="text" />
+            <button>Submit</button>
+          </div>
+          <div id="errorIndicator" class="invisible">
+            <p>&nbsp;</p>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>
