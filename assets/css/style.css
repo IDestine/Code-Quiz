@@ -114,3 +114,22 @@ button {
 #quizHolder button:hover {
   background-color: #631a8d;
 }
+
+#quizHolder #title { font-weight: 700;}
+
+#quizHolder button{
+          background-color: #41275e;
+          border-radius: ;
+          color: ;
+          margin: ;
+          padding: ;
+          cursor: ;
+          display: block;
+          width: 100%;
+          text-align: left;
+}
+
+
+#quizHolder button:hover{
+          background-color: #631a8d;
+}
