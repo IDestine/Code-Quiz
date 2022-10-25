@@ -1,0 +1,15 @@
+const initialTime = 75;
+var highScoresArr = [];
+var time = initialTime;
+var score = 0;
+var qCount = 0;
+var timeset;
+var clock;
+var viewHighScoreEl = document.querySelector("info");
+var timeEl = viewHighScoreEl.querySelector("#time");
+var startEl = document.querySelector("#intro button");
+var quizHolderEl = document.querySelector("#quizHolder");
+var questionHolderEl = document.querySelector("#questionholder");
+var highScoreHolder = document.querySelector("#highScoreHolder");
+var recordsEl = document.querySelector("#records");
+var answers = document.querySelector("#questionHholder button");
