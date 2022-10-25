@@ -115,21 +115,58 @@ button {
   background-color: #631a8d;
 }
 
-#quizHolder #title { font-weight: 700;}
-
-#quizHolder button{
-          background-color: #41275e;
-          border-radius: ;
-          color: ;
-          margin: ;
-          padding: ;
-          cursor: ;
-          display: block;
-          width: 100%;
-          text-align: left;
+#quizHolder #title {
+  font-weight: 700;
 }
 
+#quizHolder button {
+  background-color: #41275e;
+  border-radius: ;
+  color: ;
+  margin: ;
+  padding: ;
+  cursor: ;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
 
-#quizHolder button:hover{
-          background-color: #631a8d;
+#quizHolder button:hover {
+  background-color: #631a8d;
+}
+
+#scoreIndicator,
+#errorIndicator {
+  border-top: 1px solid;
+  color: #41275e;
+  font-size: 1.5em;
+  margin: 0;
+  font-style: itlaic;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+#scoreIndicator p,
+#errorIndicator p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+#records input,
+#records button {
+  margin-top: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.disable{
+          pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+.invisible {
+  visibility: hidden;
 }
