@@ -161,11 +161,37 @@ button {
   display: none;
 }
 
-.disable{
-          pointer-events: none;
+.disable {
+  pointer-events: none;
 }
 
 @media only screen and (min-width: 768px) {
+  #positionWrapper {
+    min-height: calc(100% - 82px);
+  }
+
+  #finish #records {
+    display: flex;
+    align-items: center;
+  }
+
+  #finish #records input,
+  #finish #records button {
+    margin-left: 10px;
+  }
+
+  #info {
+    flex-direction: row;
+  }
+
+  #quizHolder {
+    min-width: 420px;
+  }
+
+  #quizHolder ol {
+    min-width: 100%;
+  }
+}
 
 .invisible {
   visibility: hidden;
