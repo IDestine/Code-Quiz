@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #41275e;
+  background-color: #115960;
 }
 
 #highscore div div {
@@ -38,7 +38,7 @@ section {
 }
 
 #controls {
-  background-color: #41275e;
+  background-color: #115960;
 }
 
 #info {
@@ -56,7 +56,7 @@ section {
   /* position:absolute; */
   /* top:16px; */
   left: 40px;
-  background-color: #834bc2;
+  background-color: #000000;
   color: white;
 }
 
@@ -71,7 +71,7 @@ section {
 }
 
 button {
-  background-color: #41275e;
+  background-color: #115960;
   color: white;
   border: none;
   padding: 5px;
@@ -80,7 +80,7 @@ button {
 }
 
 #intro button:hover {
-  background-color: #631a8d;
+  background-color: #0a090a;
 }
 
 #quizHolder #title {
@@ -88,7 +88,7 @@ button {
 }
 
 #quizHolder button {
-  background-color: #41275e;
+  background-color: #115960;
   border-radius: 5px;
   color: white;
   margin: 3px 0;
@@ -100,7 +100,7 @@ button {
 }
 
 #quizHolder button {
-  background-color: #41275e;
+  background-color: #115960;
   border-radius: 5px;
   color: white;
   margin: 3px 0;
@@ -112,7 +112,7 @@ button {
 }
 
 #quizHolder button:hover {
-  background-color: #631a8d;
+  background-color: #0a090a;
 }
 
 #quizHolder #title {
@@ -120,7 +120,7 @@ button {
 }
 
 #quizHolder button {
-  background-color: #41275e;
+  background-color: #115960;
   border-radius: ;
   color: ;
   margin: ;
@@ -132,7 +132,7 @@ button {
 }
 
 #quizHolder button:hover {
-  background-color: #631a8d;
+  background-color: #0a090a;
 }
 
 #scoreIndicator,
